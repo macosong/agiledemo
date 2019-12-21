@@ -1,0 +1,17 @@
+spring:
+  # thymeleaf
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: true
+    servlet:
+      content-type: text/html
+    enabled: true
+    encoding: UTF-8
+    mode: HTML
+  # datasource
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.19.241.75:3306/agiledemo?serverTimezone=GMT&useSSL=false
+    username: root
+    password: 123456!aB
